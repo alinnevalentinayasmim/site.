@@ -16,7 +16,7 @@ section{
     align-items: center;
     background-color: rgb(239, 71, 127);
     color: white; /* cor do texto branca*/
-    margin: 10px;/* margem de 10px em cima e em baixo, e sem margem dos lados */
+    margin: 10px;/* margem de 10px em cima e em baixo,e sem margem dos lados */
     padding: 10px 20px; /* espaçamento interno de 10px em cima e em baixo, e 20px dos lados*/
 }
 
