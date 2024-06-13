@@ -1,0 +1,26 @@
+/* Seletor universal -todos vao ter essa formataçao*/
+*{
+    margin: 0; /* sem margem */
+    padding: 0%;/* sem espaçamento interno */
+}
+
+header{
+    background-color: rgb(252, 251, 233);/* cor de fundo*/
+    display: flex; /*disposiçao flexivel - lado a lado */
+    align-items: center; /*alinhado verticalmente */
+    justify-content: space-between; /* espaçamento entre os itens */
+    padding: 10px; /* espaçamento interno de 10px em todos os lados*/
+}
+section{
+    display: flex;
+    align-items: center;
+    background-color: blue;
+    color: white; /* cor do texto branca*/
+    margin: 10px;/* margem de 10px em cima e em baixo, e sem margem dos lados */
+    padding: 10px 20px; /* espaçamento interno de 10px em cima e em baixo, e 20px dos lados*/
+}
+
+div{
+    padding: 30px;
+}
+
