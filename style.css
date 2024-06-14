@@ -1,26 +1,50 @@
-/* Seletor universal -todos vao ter essa formataçao*/
-*{
-    margin: 0; /* sem margem */
-    padding: 0%;/* sem espaçamento interno */
+/* Estilos para o corpo do documento */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #333;
 }
 
-header{
-    background-color: rgb(252, 251, 233);/* cor de fundo*/
-    display: flex; /*disposiçao flexivel - lado a lado */
-    align-items: center; /*alinhado verticalmente */
-    justify-content: space-between; /* espaçamento entre os itens */
-    padding: 10px; /* espaçamento interno de 10px em todos os lados*/
-}
-section{
-    display: flex;
-    align-items: center;
-    background-color: rgb(239, 71, 127);
-    color: white; /* cor do texto branca*/
-    margin: 10px;/* margem de 10px em cima e em baixo,e sem margem dos lados */
-    padding: 10px 20px; /* espaçamento interno de 10px em cima e em baixo, e 20px dos lados*/
+/* Estilos para o cabeçalho */
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
 }
 
-div{
-    padding: 30px;
+header h1 {
+    margin: 0;
+}
+
+/* Estilos para a navegação */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos para as seções */
+section {
+    padding: 20px;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
 }
 
